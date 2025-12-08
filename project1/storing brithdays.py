@@ -1,14 +1,16 @@
-Ayaan=3/17/2018
-print("The day when Ayaan was born is:",Ayaan)
+from datetime import datetime
 
-Rumman=5/9/2008
-print("The day when Rumman was born is:",Rumman)                                
+Ayaan = datetime(2018, 3, 17)
+print("The day when Ayaan was born is:", Ayaan.date())
 
-Me=5/27/2013
-print("The day when I was born is:",Me)
+Rumman = datetime(2008, 5, 9)
+print("The day when Rumman was born is:", Rumman.date())
 
-Mydad=4/12/1997
-print("The day when My dad was born is:",Mydad)
+Me = datetime(2013, 5, 27)
+print("The day when I was born is:", Me.date())
 
-Mycousinsis=2/8/2025
-print("The day when My cousin sister was born is:",Mycousinsis)
+Mydad = datetime(1997, 4, 12)
+print("The day when my dad was born is:", Mydad.date())
+
+Mycousinsis = datetime(2025, 2, 8)
+print("The day when my cousin sister was born is:", Mycousinsis.date())
